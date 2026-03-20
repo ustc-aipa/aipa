@@ -90,7 +90,3 @@ course-materials/
 1. `Settings`
 2. `Pages`
 3. `Source: GitHub Actions`
-
-## 备注
-
-这个仓库最早来自 `just-the-docs`，但当前课程站已经切换为 `VitePress` 方案；实际使用时以 `site/`、`scripts/`、`course-materials/` 和 `.github/workflows/` 中的内容为准。
