@@ -1,10 +1,8 @@
 {
-  "name": "just-the-docs",
+  "name": "ai-course-site",
   "version": "0.3.3",
   "description": "Course website for Principles and Applications of Artificial Intelligence",
-  "repository": "just-the-docs/just-the-docs",
   "license": "MIT",
-  "bugs": "https://github.com/just-the-docs/just-the-docs/issues",
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "prettier": "^3.8.1",
@@ -26,12 +24,7 @@
   },
   "stylelint": {
     "ignoreFiles": [
-      "assets/css/just-the-docs-default.scss",
-      "assets/css/just-the-docs-light.scss",
-      "assets/css/just-the-docs-dark.scss",
-      "site/.vitepress/theme/style.css",
-      "_sass/vendor/accessible-pygments/github-dark.scss",
-      "_sass/vendor/accessible-pygments/github-light.scss"
+      "site/.vitepress/theme/style.css"
     ],
     "extends": [
       "stylelint-config-standard-scss"
