@@ -156,6 +156,115 @@
   font-weight: 600;
 }
 
+.team-section + .team-section {
+  margin-top: 28px;
+}
+
+.team-section-title {
+  margin: 0 0 14px;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #111827;
+}
+
+.team-grid,
+.assistant-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.team-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.assistant-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.team-card,
+.assistant-card {
+  padding: 20px;
+  border: 1px solid var(--course-border);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.team-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.team-role,
+.team-affiliation {
+  margin: 0;
+}
+
+.team-role {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--course-accent);
+}
+
+.team-affiliation {
+  color: var(--course-muted);
+}
+
+.team-card h4,
+.assistant-card h4 {
+  margin: 4px 0 0;
+  font-size: 1.28rem;
+  line-height: 1.35;
+  color: #0f172a;
+}
+
+.team-summary {
+  margin: 0 0 14px;
+  line-height: 1.7;
+  color: #273444;
+}
+
+.team-meta {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+
+.team-meta div {
+  display: grid;
+  gap: 4px;
+}
+
+.team-meta dt {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.team-meta dd {
+  margin: 0;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.team-meta a,
+.assistant-card a {
+  color: var(--course-accent);
+  text-decoration: none;
+}
+
+.team-meta a:hover,
+.assistant-card a:hover {
+  text-decoration: underline;
+}
+
+.assistant-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .outline-group {
   display: flex;
   flex-direction: column;

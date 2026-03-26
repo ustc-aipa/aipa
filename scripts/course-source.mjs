@@ -167,154 +167,72 @@
       ],
     },
   ],
-  englishModules: [
-    {
-      id: "1",
-      title: "Module 1: The Evolution of AI: From Rule-Based Reasoning to Data-Driven Intelligence",
-      hours: "3 Hours",
-      coreConcept: "To illustrate that AI did not emerge out of nowhere but represents a continuation and fusion of \"Rationalism\" and \"Empiricism\" in the computational age.",
-      sections: [
-        {
-          title: "1.1 Intellectual Origins and Historical Waves",
-          items: [
-            "1.1.1 From the Turing Test to the Dartmouth Conference: The Birth and Early Ambitions of AI",
-            "1.1.2 The Glory and Dilemma of Symbolism: Expert Systems and the First AI Winter",
-            "1.1.3 The Rise of Statistical Learning: The Paradigm Shift Towards Learning from Data",
-            "1.1.4 The Breakthrough of Deep Learning and the Third Wave: The Power of Representation Learning",
-          ],
-        },
-        {
-          title: "1.2 The Three Major Paradigms of AI (A Perspective Throughout History)",
-          items: [
-            "1.2.1 Symbolism (Logic and Knowledge): How to make machines \"think\"?",
-            "1.2.2 Connectionism (Learning and Association): How to make machines \"perceive\"?",
-            "1.2.3 Behaviorism (Interaction and Optimization): How to make machines \"act\"?",
-            "Summary: How does Modern AI integrate these three paradigms? — The example of Large Language Models (knowledge internalized in parameters, learned through interaction).",
-          ],
-        },
-      ],
-    },
-    {
-      id: "2",
-      title: "Module 2: Data Science and Machine Learning: The Foundation of Intelligence",
-      hours: "6 Hours",
-      coreConcept: "Positioning Data Science as the \"precursor discipline\" to AI and Machine Learning as the \"implementation method,\" reinforcing the thought chain from \"problem to data, and data to model.\"",
-      sections: [
-        {
-          title: "2.1 Introduction to Data Science: From Observation to Insight",
-          items: [
-            "2.1.1 The Data Science Lifecycle: Problem Definition, Data Collection, Processing, Modeling, Deployment",
-            "2.1.2 Data Preprocessing and Feature Engineering: Preparing the \"Ingredients\" for Models",
-          ],
-        },
-        {
-          title: "2.2 Core Ideas of Machine Learning: Three Learning Paradigms",
-          items: [
-            "2.2.1 Supervised Learning (Induction and Prediction): The ideas behind Regression and Classification (using Linear Models, Decision Trees as examples, avoiding complex formulas)",
-            "2.2.2 Unsupervised Learning (Discovery and Structure): The ideas behind Clustering and Dimensionality Reduction (exploring the intrinsic structure of data)",
-            "2.2.3 Reinforcement Learning (Trial-and-Error and Optimization): The core framework of Agent-Environment Interaction (analogous to biological learning)",
-          ],
-        },
-        {
-          title: "2.3 From Shallow Models to Deep Networks: Why \"Depth\"?",
-          items: ["Conceptual Bridge: Explaining model complexity, representational power, and the basic intuition behind Neural Networks (neurons, hierarchical abstraction)."],
-        },
-      ],
-    },
-    {
-      id: "3",
-      title: "Module 3: Deep Neural Networks and the Generative AI Revolution",
-      hours: "21 Hours",
-      coreConcept: "This is the technical core of the course, but the teaching focus should be on the intuitive explanation and intellectual impact of key breakthroughs, not mathematical details. Use \"Representation Learning\" and \"Generative Capability\" as the main threads.",
-      sections: [
-        {
-          title: "3.1 Fundamentals of Deep Learning: Endowing Machines with Perceptual Ability (3 Hours)",
-          items: [
-            "3.1.1 Convolutional Neural Networks (CNN): How to make machines \"see\" — Local Receptive Fields, Parameter Sharing, Hierarchical Feature Extraction.",
-            "3.1.2 Recurrent Neural Networks (RNN) and the Attention Mechanism: How to make machines process \"sequences\" — Short-term Memory and Focusing on Key Information.",
-          ],
-        },
-        {
-          title: "3.2 Natural Language Processing and the Era of Large Models (6 Hours)",
-          items: [
-            "3.2.1 From Bag-of-Words to Word Embeddings: Distributed Representation of Language (mapping semantics to vector space).",
-            "3.2.2 The Transformer Architecture Revolution: How the Self-Attention Mechanism unifies understanding and generation.",
-            "3.2.3 The Pre-training Paradigm: From BERT to GPT — How \"Pre-training + Fine-tuning/Prompting\" changed the AI R&D paradigm.",
-            "3.2.4 Large Model Application Techniques: Prompt Engineering, Retrieval-Augmented Generation (RAG), Agents — How to effectively interact with and extend the capabilities of large models.",
-          ],
-        },
-        {
-          title: "3.3 Computer Vision: From Recognition to Creation (6 Hours)",
-          items: [
-            "3.3.1 Fundamentals of Visual Recognition: The core ideas behind Object Detection, Segmentation.",
-            "3.3.2 Visual Generative Models: The intuitive working principle of Diffusion Models — \"sculpting\" images from noise.",
-            "3.3.3 3D Vision and Representation Learning: Understanding the world from 2D to 3D.",
-          ],
-        },
-        {
-          title: "3.4 Multimodal Artificial Intelligence: Bridging the Perceptual Gap (6 Hours)",
-          items: [
-            "3.4.1 Multimodal Alignment and Fusion: How to make AI understand text, images, and sound simultaneously?",
-            "3.4.2 Vision-Language Large Models: The working principles and significance of models like CLIP and DALL-E.",
-            "3.4.3 Embodied AI and AI Agents: How multimodal perception drives decision-making and action — A path towards more general AI.",
-          ],
-        },
-      ],
-    },
-    {
-      id: "4",
-      title: "Module 4: AI for Science: Practical Case Studies",
-      hours: "12 Hours",
-      sections: [
-        {
-          title: "4.1 AI for Life Sciences",
-          items: [
-            "4.1.1 The Intersection of AI and Life Sciences",
-            "4.1.2 Applications: AI + Biomedical Research, Clinical Medicine, Public Health",
-            "4.1.3 Discussion and Outlook",
-          ],
-        },
-        {
-          title: "4.2 AI for Geographic Sciences",
-          items: [
-            "4.2.1 The Intersection of AI and Geographic Sciences",
-            "4.2.2 Applications: AI + Environmental Monitoring, Urban Management, Earth System Science",
-            "4.2.3 Discussion and Outlook",
-          ],
-        },
-        {
-          title: "4.3 AI for Chemistry",
-          items: [
-            "4.3.1 The Intersection of AI and Chemistry",
-            "4.3.2 Applications: AI + Molecules & Materials, Reactions & Synthesis, Processes & Automation",
-            "4.3.3 Discussion and Outlook",
-          ],
-        },
-        {
-          title: "4.4 AI for Mathematical Sciences",
-          items: [
-            "4.4.1 The Intersection of AI and Mathematical Sciences",
-            "4.4.2 Applications: AI + Automated Theorem Proving, PDE Solving, Statistical Inference & Data Science",
-            "4.4.3 Discussion and Outlook",
-          ],
-        },
-        {
-          title: "4.5 AI for Earth and Space Sciences",
-          items: [
-            "4.5.1 The Intersection of AI and Earth/Space Sciences",
-            "4.5.2 Applications: AI + Atmospheric Modeling & Weather Forecasting, Remote Sensing, Space Exploration, Planetary Exploration",
-            "4.5.3 Discussion and Outlook",
-          ],
-        },
-        {
-          title: "4.6 AI for Physical Sciences",
-          items: [
-            "4.6.1 The Intersection of AI and Physics",
-            "4.6.2 Applications: AI + Data-Driven Physical Modeling (PDE/Dynamical Systems), Condensed Matter & Materials, Quantum Computing",
-            "4.6.3 Discussion and Outlook",
-          ],
-        },
-      ],
-    },
-  ],
+  teachingTeam: {
+    instructors: [
+      {
+        name: "周文罡",
+        title: "教授",
+        affiliation: "信息科学技术学院",
+        email: "zhwg@ustc.edu.cn",
+        researchAreas: "多媒体信息检索、计算机视觉、多模态理解",
+        summary: "长期从事图像与视频理解、检索及视觉智能方向研究。",
+        profileUrl: "http://staff.ustc.edu.cn/~zhwg/index.html",
+      },
+      {
+        name: "夏彦",
+        title: "预聘副教授",
+        affiliation: "人工智能与数据科学学院",
+        email: "yan.xia@ustc.edu.cn",
+        researchAreas: "三维视觉、空间智能、机器人、无人驾驶",
+        summary: "研究聚焦三维视觉与空间智能，兼顾机器人与自动驾驶场景。",
+        profileUrl: "https://saids.ustc.edu.cn/2024/1105/c36363a686123/page.htm",
+      },
+      {
+        name: "王江涛",
+        title: "特任教授",
+        affiliation: "人工智能与数据科学学院",
+        email: "wangjiangtao@ustc.edu.cn",
+        researchAreas: "数字健康、人工智能、数据科学",
+        summary: "关注人工智能和机器学习在数字健康、智慧城市等领域的应用。",
+        profileUrl: "https://saids.ustc.edu.cn/2024/0722/c36359a648226/page.htm",
+      },
+      {
+        name: "吴剑灿",
+        title: "预聘副教授",
+        affiliation: "人工智能与数据科学学院",
+        email: "wjc1994@ustc.edu.cn",
+        researchAreas: "通用人工智能与大模型、个性化大模型与社交科学智能、可信人工智能",
+        summary: "长期从事信息检索、推荐、数据挖掘与大模型相关研究。",
+        profileUrl: "https://saids.ustc.edu.cn/2025/1013/c36359a704390/page.htm",
+      },
+      {
+        name: "康奇宇",
+        title: "特任教授",
+        affiliation: "信息科学技术学院",
+        email: "kang0080@e.ntu.edu.sg",
+        researchAreas: "图神经网络、机器学习、安全可信、脉冲神经网络、感知决策",
+        summary: "重点研究深度学习的能效性、鲁棒性与安全可信问题。",
+        profileUrl: "https://faculty.ustc.edu.cn/kangqiyu/zh_CN/index.htm",
+      },
+      {
+        name: "徐金辉",
+        title: "教授",
+        affiliation: "信息科学技术学院",
+        email: "jhxu@ustc.edu.cn",
+        researchAreas: "算法与几何、机器学习、差分隐私、网络、生物医学、智能生物制药",
+        summary: "以算法和几何为基础，兼顾机器学习理论与交叉应用研究。",
+        profileUrl: "https://faculty.ustc.edu.cn/xujinhui1/zh_CN/index.htm",
+      },
+    ],
+    assistants: [
+      {
+        name: "王致超",
+        email: "wzc9264@hotmail.com",
+      },
+      {
+        name: "肖剑斐",
+        email: "jfxiao2000@gmail.com",
+      },
+    ],
+  },
 };

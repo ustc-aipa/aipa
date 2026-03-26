@@ -3,12 +3,13 @@ import { courseData } from "../generated/course-content.mjs"
 import CourseMeta from "./CourseMeta.vue"
 import CourseMaterialsTable from "./CourseMaterialsTable.vue"
 import OutlineSection from "./OutlineSection.vue"
+import TeachingTeam from "./TeachingTeam.vue"
 
 const navItems = [
   { href: "#course-info", label: "课程信息" },
+  { href: "#teaching-team", label: "任课教师与助教" },
   { href: "#course-materials", label: "课程资料" },
-  { href: "#outline-zh", label: "内容简介（中文）" },
-  { href: "#outline-en", label: "内容简介（英文）" },
+  { href: "#outline-zh", label: "内容简介" },
 ]
 </script>
 
@@ -29,22 +30,16 @@ const navItems = [
         <CourseMeta />
       </section>
 
+      <TeachingTeam />
+
       <CourseMaterialsTable />
 
       <OutlineSection
         section-id="outline-zh"
-        title="内容简介（中文）"
+        title="内容简介"
         :modules="courseData.chineseModules"
         core-label="核心思想："
         module-prefix="模块"
-      />
-
-      <OutlineSection
-        section-id="outline-en"
-        title="内容简介（英文）"
-        :modules="courseData.englishModules"
-        core-label="Core Concept: "
-        module-prefix="Module"
       />
     </main>
   </div>
