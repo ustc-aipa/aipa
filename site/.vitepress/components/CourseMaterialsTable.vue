@@ -1,4 +1,5 @@
 ﻿<script setup>
+import { withBase } from "vitepress"
 import { courseData } from "../generated/course-content.mjs"
 </script>
 
@@ -19,7 +20,7 @@ import { courseData } from "../generated/course-content.mjs"
           <td>
             <ul v-if="week.classMaterials.length" class="file-list">
               <li v-for="item in week.classMaterials" :key="item.href">
-                <a :href="item.href" class="file-link" download>{{ item.name }}</a>
+                <a :href="withBase(item.href)" class="file-link" download>{{ item.name }}</a>
               </li>
             </ul>
             <span v-else class="placeholder-text">to be come</span>
@@ -27,7 +28,7 @@ import { courseData } from "../generated/course-content.mjs"
           <td>
             <ul v-if="week.homework.length" class="file-list">
               <li v-for="item in week.homework" :key="item.href">
-                <a :href="item.href" class="file-link" download>{{ item.name }}</a>
+                <a :href="withBase(item.href)" class="file-link" download>{{ item.name }}</a>
               </li>
             </ul>
             <span v-else class="placeholder-text">-</span>
